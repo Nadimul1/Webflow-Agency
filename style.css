@@ -6,11 +6,24 @@
   font-style: normal;
 }
 
-/* Reset default spacing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.primary-button,
+.secondary-button,
+.thrird-button,
+.nav-button {
+  transition: all 0.3s ease;
+}
+.primary-button:hover,
+.secondary-button:hover,
+.thrird-button:hover,
+.nav-button:hover {
+  background-color: #372df3;
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Navbar styling */
