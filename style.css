@@ -15,7 +15,7 @@
 .secondary-button,
 .thrird-button,
 .nav-button {
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 }
 .primary-button:hover,
 .secondary-button:hover,
