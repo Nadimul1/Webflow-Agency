@@ -1,0 +1,299 @@
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+    font-weight: 700;
+  font-style: normal;
+}
+
+/* Reset default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styling */
+nav{
+    background-image: url(hero-bg.png);
+    height: 70vh;
+    
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 350px 0px 350px;
+}
+
+.logo {
+  color: #4E47FF;
+  font-weight: bold;
+    font-size: 34px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.nav-button {
+  background-color: #4E47FF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 200px 80px 0px 20px;
+}
+
+.hero h2 {
+  font-size: 65px;
+  margin-bottom: 30px;
+}
+
+.primary-button {
+  background-color: #4E47FF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 6px;
+  
+}
+main{
+  background-color: #f5f8ff;
+}
+/* Action Section */
+.action {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding: 100px 70px;
+  
+}
+
+.action-text {
+  max-width: 400px;
+  margin-right: 500px;
+}
+
+.action-text h3{
+  font-size: 42px;
+  color: #252432;
+}
+.action-text p{
+  font-size: 24px;
+  color: #8987A1;
+  font-weight: normal;
+}
+
+.action img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
+
+.secondary-button {
+  background-color: #4E47FF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* Stats Section */
+.stats {
+  display: flex;
+  max-width: 1340px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 80px;
+  background-color: #f0f0ff;
+  border-radius: 20px;  
+   
+}
+.stats-title{
+  font-size: 38px;
+  color: #252432;
+  margin-left: 20px;
+}
+
+.stats div {
+  margin: 0 30px;
+  text-align: center;
+  padding: 20px;
+  
+}
+.stats div h3{
+  font-size: 80px;
+  color: #4E47FF;
+}
+.stats div p{
+  color: #757575;
+  font-size: 20px
+}
+.stats h3 {
+  font-size: 28px;
+  color: #4E47FF;
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 90px 40px;
+  text-align: center;
+  
+  
+}
+.testimonials h3{
+  font-size: 42px;
+  color: #252432;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 432px;
+  height: 253px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+.cards-des{
+  color: #1E1E1E;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.avatar-name {
+
+  padding: 0px 50px 200px 50px;
+  margin-top:0 10px;
+  text-align: top;  
+}
+.avatar-name h4{
+font-size: 16px;
+  color: #757575;
+}
+.avatar-name p{
+  font-size: 14px;
+  color: #B3B3B3;
+}
+.test1{
+  font-size: 16px;
+}
+/* Focus Section */
+.focus {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #FFFFFF;
+  max-width: 1340px;
+  margin: 0 auto;
+  border-radius: 20px;
+  
+
+}
+.focus h3{
+  font-size: 50px;
+  color: #000000
+}
+.focus p {
+  color: #8987A1;
+}
+.focus img {
+  margin-top: 20px; 
+  margin-right: 10px;
+  max-width: 840px;
+  height: 364px;
+  border-radius: 48px;
+  
+}
+.thrird-button{
+  background-color: #4E47FF;
+  color: white;
+  font-size: 16px;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+.margin {
+  margin-top: 20px;
+}
+
+/* Contact Section */
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 60px 20px;
+  text-align: center;
+ 
+  
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+.contact-title{
+  margin-left: 420px;
+  font-size: 85px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 15px;
+  margin: 12px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.contact button {
+  margin-top: 10px;
+}
+.text-from {
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+/* Footer */
+.footer {
+  background-color: #FFFFFF;
+  height: 30vh;
+  text-align: center;
+  padding: 30px 20px;
+}
+.footer p {
+  color: #8987A1
+}
+.footer-links{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  
+}
+
+.footer-links li {
+  margin: 0 15px;
+  color: #8987A1;
+}
+  
